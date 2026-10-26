@@ -1,14 +1,12 @@
-# WAF Network Security Simulator -- Prototype 1 (increment 2)
+# WAF Network Security Simulator
 
 A PySide6 control and visualization layer over the existing SecureGateway
 CLI backend. The backend programs run **unmodified** as managed
 subprocesses (the only backend changes are `server.py`'s DB-engine switch and
 the new `mock_mysql.py`). See `SRS_WAF_Simulator_Prototype1.docx`.
 
-## What increment 2 adds
+## Features
 
-| Area | What you get |
-|---|---|
 | **Network Topology** | Client -> Firewall -> Server -> MySQL diagram. Colours are real: process state for Client/Firewall/Server, and the server's own startup lines for the MySQL node (Mock DB / Connected / Unreachable). Status colours only, no traffic animation. |
 | **Dossier Viewer** | Live view of `aegis_dossier.json` with a filter box. It independently recomputes every entry hash and the Merkle root, and shows **VERIFIED** or **TAMPERING DETECTED** (with the ids of altered entries). Read-only. |
 | **Status bar** | Per-process state + MySQL state + Admin-derived counts (registered / warned / terminated / locked users, allowed / blocked events). |
@@ -21,8 +19,7 @@ the new `mock_mysql.py`). See `SRS_WAF_Simulator_Prototype1.docx`.
 Per your decision, counts are parsed from the Admin console's own `status`
 and `listusers` output, so they need an open, logged-in Admin session. Use
 **Security > Refresh Admin Status** (or tick auto-refresh). The GUI echoes
-each command it sends into the Admin Terminal as `> status   (sent by GUI)`,
-so nothing is ever sent silently.
+each command it sends into the Admin Terminal as `> status   (sent by GUI)`.
 
 ## Folder layout
 
@@ -41,10 +38,8 @@ waf_simulator/
 
 ## Setup
 
-1. Copy `server_patch/server.py` and `server_patch/mock_mysql.py` into your
-   SecureGateway project folder (back up your old `server.py`). Running
-   `python server.py` with no arguments still behaves as before.
-2. Run once, in a normal terminal in that folder: `python bootstrap_admin.py`.
+1. Go to SecureGateway directory using `cd SecureGateway` in a terminal.
+2. Run once, in the terminal in that folder: `python bootstrap_admin.py`.
 3. Then:
 
 ```powershell
@@ -62,7 +57,7 @@ python main.py
 3. Register and log in on the Client; log in on the Admin; `grant <user> x`, etc.
 4. Watch the Dossier Viewer verify each new entry; use Refresh Admin Status for counts.
 
-## Verified so far
+## Tests
 A headless end-to-end run (32 checks, all passing): colour rules;
 topology states and link colours; MySQL node = sandbox; masked password entry
 for both Client and Admin through the GUI input boxes (and absent from the
@@ -72,10 +67,6 @@ deliberate dossier edit -> **TAMPERING DETECTED**; Restart Network back to
 Ready; no orphaned processes. Parsers were also fuzzed with 200 random chunk
 splits, and the dossier verifier was checked against your real 54-entry
 `aegis_dossier.json` (intact) and against edited/deleted-entry copies (both caught).
-
-**Not yet verified:** behaviour on Windows (developed and tested headless on
-Linux; the code avoids Python 3.12-only syntax, checked against the 3.9
-grammar), Real MySQL mode, several simultaneous clients.
 
 ## Known limitations
 - The Client Configuration dialog (firewall IP/port) is still deferred: `client.py` fixes 127.0.0.1:8080 in its own source.
