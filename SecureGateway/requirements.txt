@@ -1,0 +1,8 @@
+# Existing project dependencies (unchanged)
+numpy
+scikit-learn
+colorama
+mysql-connector-python
+
+# New dependency for Argon2id password hashing (auth_db.py)
+argon2-cffi

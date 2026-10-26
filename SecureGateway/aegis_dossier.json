@@ -1,0 +1,1049 @@
+{
+  "root": "5a41307c7e36ce98ca0db00d9643fc9a92b3982b21e333eb6e75961231d45626",
+  "logs": [
+    {
+      "id": 1,
+      "timestamp": "2026-09-18T12:14:57.164659+05:30",
+      "type": "ADMIN_LOGIN_FAILED",
+      "source": "127.0.0.1:8080",
+      "details": "Failed admin login for 'Aditya': Invalid username or password.",
+      "ai_confidence": 0.5,
+      "hash": "39d8a22f6998b3515c24c807b5e69e38e131ff6c5f58b8a03427adf05ae43191"
+    },
+    {
+      "id": 2,
+      "timestamp": "2026-09-18T12:15:02.451207+05:30",
+      "type": "ADMIN_LOGIN_FAILED",
+      "source": "127.0.0.1:8080",
+      "details": "Failed admin login for 'Aditya': Invalid username or password.",
+      "ai_confidence": 0.5,
+      "hash": "7521d4ed0e712d756b0fc2d88b29691968c1c91f789ea70b61cd686017aa9feb"
+    },
+    {
+      "id": 3,
+      "timestamp": "2026-09-18T12:16:05.156118+05:30",
+      "type": "ADMIN_LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "Admin 'Aditya' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "eac637ba90fe10be2574b8d0203d5f22395cc7303c2426c01b78c350ca4e5626"
+    },
+    {
+      "id": 4,
+      "timestamp": "2026-09-18T12:16:20.765737+05:30",
+      "type": "USER_REGISTERED",
+      "source": "SELF-SERVICE",
+      "details": "New user 'Sagnik' registered (default: read-only)",
+      "ai_confidence": 0.0,
+      "hash": "14893e8bd4808f1d646f4c1897df4cadcc7dd55d05759f5188dd04094e8f4860"
+    },
+    {
+      "id": 5,
+      "timestamp": "2026-09-18T12:16:38.202581+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "6f64c90afb0b244d313337de44b0a801b8660ee3e0e735c933278b502d3fc260"
+    },
+    {
+      "id": 6,
+      "timestamp": "2026-09-18T12:16:44.745571+05:30",
+      "type": "INTERNAL_UEBA_ORANGE",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "b2f786db61023818b66f8a7f9a58a24176480f722922eba890e9fda2c42d5d8a"
+    },
+    {
+      "id": 7,
+      "timestamp": "2026-09-18T12:17:05.980219+05:30",
+      "type": "INTERNAL_UEBA_RED",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'show tables;'",
+      "ai_confidence": 0.7898,
+      "hash": "7f863c619a0cf7a4430044cd920e7e4041e19159168f9e27dd359d2577db2f5f"
+    },
+    {
+      "id": 8,
+      "timestamp": "2026-09-18T12:17:22.706741+05:30",
+      "type": "ADMIN_REVIVE",
+      "source": "ADMIN",
+      "details": "Internal user 'Sagnik' revived by Admin",
+      "ai_confidence": 0.0,
+      "hash": "308f1007012a8eeb120fb798fda10d115935d54f352ea0093f3ab3d07919e019"
+    },
+    {
+      "id": 9,
+      "timestamp": "2026-09-18T12:18:15.778334+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "d2f6e475cf94d55c52657ddf3f7d3fa91eba20b0d43f1e3514da011bb88c26a7"
+    },
+    {
+      "id": 10,
+      "timestamp": "2026-09-18T12:22:08.928838+05:30",
+      "type": "INTERNAL_UEBA_ORANGE",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "902d46f0d88ed36712f033f07b076523c2b6e1ee0e496846dcaba86f227a257d"
+    },
+    {
+      "id": 11,
+      "timestamp": "2026-09-18T12:22:38.480197+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data]'",
+      "ai_confidence": 0.4897,
+      "hash": "49badbbbbdaeb469810c5f753749d35cdcbe2cf8673d2b4cd859e0199f3e9a7b"
+    },
+    {
+      "id": 12,
+      "timestamp": "2026-09-18T12:22:47.308081+05:30",
+      "type": "INTERNAL_UEBA_RED",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "6bbdb194cb19379945e2b650274a45a4df12822fd1e17efc6086d737a1037b8b"
+    },
+    {
+      "id": 13,
+      "timestamp": "2026-09-18T12:23:03.102239+05:30",
+      "type": "ADMIN_REVIVE",
+      "source": "ADMIN",
+      "details": "Internal user 'Sagnik' revived by Admin",
+      "ai_confidence": 0.0,
+      "hash": "d3d2533cf9665dccbe451ec2169cf0248aabac1681d0394df0f56a1e63621d44"
+    },
+    {
+      "id": 14,
+      "timestamp": "2026-09-18T12:23:12.053790+05:30",
+      "type": "INTERNAL_UEBA_ORANGE",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "8bc9423bae667d1d34073c572e146894ee971c190acdbe1c0aef92a11e1f5178"
+    },
+    {
+      "id": 15,
+      "timestamp": "2026-09-18T12:23:31.639475+05:30",
+      "type": "ADMIN_GRANT",
+      "source": "ADMIN",
+      "details": "Granted 'W' to 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "878cde4fadb457637d71feb0284167df10aac47debdb1d023124c15597ce86d4"
+    },
+    {
+      "id": 16,
+      "timestamp": "2026-09-18T12:24:00.979883+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'update gdp_data set country_id = 'RSA\" where country_id = 'ZAF';'",
+      "ai_confidence": 0.2044,
+      "hash": "ee206fa4d7bead8456f5667c49703479b569eb578b1ddc9b57c0718d5248eb2d"
+    },
+    {
+      "id": 17,
+      "timestamp": "2026-09-18T12:24:29.616665+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'update gdp_data set country_id = 'RSA' where country_id = 'ZAF';'",
+      "ai_confidence": 0.1932,
+      "hash": "013af052761e979e01b88ee96c055ddc3f5b1f24a72e538430e624254983ff43"
+    },
+    {
+      "id": 18,
+      "timestamp": "2026-09-18T12:24:36.562552+05:30",
+      "type": "INTERNAL_UEBA_RED",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "07b5b0a31956e907673f692f3a60a6f5712b021520b00f172fc41bda52ad9d4a"
+    },
+    {
+      "id": 19,
+      "timestamp": "2026-09-18T12:24:43.243414+05:30",
+      "type": "ADMIN_REVIVE",
+      "source": "ADMIN",
+      "details": "Internal user 'Sagnik' revived by Admin",
+      "ai_confidence": 0.0,
+      "hash": "b124a57cf3f78866413f515491bfb90dd1159b9ac755dd162f3d0231d232844d"
+    },
+    {
+      "id": 20,
+      "timestamp": "2026-09-18T12:24:47.810479+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "9decad213bc458c444c7229b8a4cb980e69794f18ca8d7a66e2247685daaf1a2"
+    },
+    {
+      "id": 21,
+      "timestamp": "2026-09-18T12:25:55.599017+05:30",
+      "type": "PERMISSION_DENIED_X",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'pwd' | Required: X",
+      "ai_confidence": 1.0,
+      "hash": "a10c15bad524af4d77f738b2d8c20c2d7f191f7ee1c21ff38e362aeabc597ac0"
+    },
+    {
+      "id": 22,
+      "timestamp": "2026-09-18T12:26:10.119119+05:30",
+      "type": "ADMIN_GRANT",
+      "source": "ADMIN",
+      "details": "Granted 'X' to 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "4d5c985eeb2760b739ca6dbd4a81e0eb7b7dc83754c8b68f71770d3234f29473"
+    },
+    {
+      "id": 23,
+      "timestamp": "2026-09-18T12:26:13.793397+05:30",
+      "type": "INTERNAL_UEBA_RED",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'pwd'",
+      "ai_confidence": 0.7128,
+      "hash": "0e072a4c1d01b258258c9768d3731ee97dfb57c7d322a23bf9c7249b688b2e66"
+    },
+    {
+      "id": 24,
+      "timestamp": "2026-09-18T12:26:19.611166+05:30",
+      "type": "ADMIN_REVIVE",
+      "source": "ADMIN",
+      "details": "Internal user 'Sagnik' revived by Admin",
+      "ai_confidence": 0.0,
+      "hash": "4e2564b3bfc383f50f116829515c5218c25b670112f1a61dcbb38afbc72e63e5"
+    },
+    {
+      "id": 25,
+      "timestamp": "2026-09-18T12:26:23.263062+05:30",
+      "type": "INTERNAL_UEBA_ORANGE",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'pwd'",
+      "ai_confidence": 0.7128,
+      "hash": "edfcecd1067b05aa91bfb4fd1aa715ec37abc491cc7ebf44f04534f4a6fa8dc4"
+    },
+    {
+      "id": 26,
+      "timestamp": "2026-09-18T12:28:24.954339+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'cd /'",
+      "ai_confidence": 0.0,
+      "hash": "50d52e1621148d59dc223e0a95c1de83459788cf9f52424b0c0a910ed54264b3"
+    },
+    {
+      "id": 27,
+      "timestamp": "2026-09-18T15:33:16.038991+05:30",
+      "type": "ADMIN_LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "Admin 'Aditya' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "50f7fd779d61b02826d06cb2dd31129faf12e5957f597bf3a1d08829df26389b"
+    },
+    {
+      "id": 28,
+      "timestamp": "2026-09-18T15:33:54.329857+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "50aeef8c72d1dcd89f7eff479ff146986f151480ae7bdf1ce4255472911221fd"
+    },
+    {
+      "id": 29,
+      "timestamp": "2026-09-18T15:34:34.629031+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "4538dfc4b8e91c6952472523a80f82c46f8a0a151f6f3d17425bd5f4afccf797"
+    },
+    {
+      "id": 30,
+      "timestamp": "2026-09-18T15:36:21.559148+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'update gdp_data set country_id='INA' where country_id= 'IDN';'",
+      "ai_confidence": 0.1216,
+      "hash": "fad2ca249583851c32dce9ad917495429c954bf1a91e7ecc26f2a39ec9486533"
+    },
+    {
+      "id": 31,
+      "timestamp": "2026-09-18T15:37:35.707295+05:30",
+      "type": "INTERNAL_UEBA_ORANGE",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "5f30fd8062708f242a6560bc1c7acf0763ae401062eb3e6775cd8f5484a236df"
+    },
+    {
+      "id": 32,
+      "timestamp": "2026-09-18T15:39:40.129177+05:30",
+      "type": "PERMISSION_DENIED_D",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'drop table gdp_data;' | Required: D",
+      "ai_confidence": 1.0,
+      "hash": "872443fbeb6199db5d3bb35b3c5ef8bdbf86815f4d2aae34165fecb3136b2fb4"
+    },
+    {
+      "id": 33,
+      "timestamp": "2026-09-18T15:40:00.573914+05:30",
+      "type": "ADMIN_GRANT",
+      "source": "ADMIN",
+      "details": "Granted 'D' to 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "328dfaa6ff5494bc63ad54f8b13b44464970c95492fa710eb8be05fde1560790"
+    },
+    {
+      "id": 34,
+      "timestamp": "2026-09-18T15:40:21.158936+05:30",
+      "type": "ADMIN_REVIVE",
+      "source": "ADMIN",
+      "details": "Internal user 'Sagnik' revived by Admin",
+      "ai_confidence": 0.0,
+      "hash": "8a482e8fea48c90c0112e588264b70ba88971dcffce43f680b5de1f9c937bef5"
+    },
+    {
+      "id": 35,
+      "timestamp": "2026-09-18T15:40:26.231439+05:30",
+      "type": "INTERNAL_UEBA_ORANGE",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'drop table gdp_data;'",
+      "ai_confidence": 0.9987,
+      "hash": "e03456691eba42dc9c093fb2a0d986ebb2797418bc345743ea3d9f7e5638241d"
+    },
+    {
+      "id": 36,
+      "timestamp": "2026-09-18T15:42:10.139417+05:30",
+      "type": "INTERNAL_UEBA_RED",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "211e3f3b972c60cd58a6f6733d46ec96495968f696fc19dea0e34a4a38f1907c"
+    },
+    {
+      "id": 37,
+      "timestamp": "2026-09-18T15:42:15.312478+05:30",
+      "type": "ADMIN_REVIVE",
+      "source": "ADMIN",
+      "details": "Internal user 'Sagnik' revived by Admin",
+      "ai_confidence": 0.0,
+      "hash": "c4673ebb1fcc4ebbec44a6a3f00994be5786329389f740bcaeafa2c41aabcfd8"
+    },
+    {
+      "id": 38,
+      "timestamp": "2026-09-18T15:42:18.329292+05:30",
+      "type": "INTERNAL_UEBA_ORANGE",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "6a2c8d377e740ea2f44ac5993594d7c1c29543150751e58663cbde8c197a667f"
+    },
+    {
+      "id": 39,
+      "timestamp": "2026-09-18T15:42:34.774992+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'ls -la'",
+      "ai_confidence": 0.0,
+      "hash": "cebfffca0ff3ca2b21ae7c12bf22655d641265b56eb3433b0e8f814c659886dd"
+    },
+    {
+      "id": 40,
+      "timestamp": "2026-09-18T15:42:34.799308+05:30",
+      "type": "INTERNAL_UEBA_RED",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'cat /etc/passwd'",
+      "ai_confidence": 0.9942,
+      "hash": "f5072adcbe17860c030a996b4ec0fe6034bc881b52bdcca930a51f1ff5582d02"
+    },
+    {
+      "id": 41,
+      "timestamp": "2026-09-18T15:42:51.499465+05:30",
+      "type": "ADMIN_REVIVE",
+      "source": "ADMIN",
+      "details": "Internal user 'Sagnik' revived by Admin",
+      "ai_confidence": 0.0,
+      "hash": "876241d3fdbce54eb7ff1983591af9c7607270cf2de985977b2dbf57001f6e59"
+    },
+    {
+      "id": 42,
+      "timestamp": "2026-09-18T15:43:05.944472+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /dir0'",
+      "ai_confidence": 0.99,
+      "hash": "3aa64856dd8710666557a08278a0d51255e641756a545a05465711f428dad843"
+    },
+    {
+      "id": 43,
+      "timestamp": "2026-09-18T15:43:05.949990+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /dir1'",
+      "ai_confidence": 0.99,
+      "hash": "24ecb6d71c46fabe9b8e3fb7e2198ae98ca96976dde77ee41c93d56cafa95f48"
+    },
+    {
+      "id": 44,
+      "timestamp": "2026-09-18T15:43:05.949990+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /dir2'",
+      "ai_confidence": 0.99,
+      "hash": "9310330254ae31da7d32cd4e4ff563819b70b819e22c65741068512217c48887"
+    },
+    {
+      "id": 45,
+      "timestamp": "2026-09-18T15:43:05.959353+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /dir3'",
+      "ai_confidence": 0.99,
+      "hash": "cb6a6f5d53a2900c185d793a5b1a85ea123f22dc9f99549e3ff705f64239c295"
+    },
+    {
+      "id": 46,
+      "timestamp": "2026-09-18T15:43:05.979074+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /dir4'",
+      "ai_confidence": 0.99,
+      "hash": "0c9f0edd44d080cb61ee6c015c309c20bd0af1a720d835c89a2ed707f6999a4b"
+    },
+    {
+      "id": 47,
+      "timestamp": "2026-09-21T15:03:06.125799+05:30",
+      "type": "ADMIN_LOGIN_FAILED",
+      "source": "127.0.0.1:8080",
+      "details": "Failed admin login for 'Aditya': Invalid username or password. 4 attempt(s) left before lockout.",
+      "ai_confidence": 0.5,
+      "hash": "531b55ef88576b3d8c4936d57f5b1d8aa5c5c677a2fa8650d08959042123c580"
+    },
+    {
+      "id": 48,
+      "timestamp": "2026-09-21T15:03:13.239880+05:30",
+      "type": "ADMIN_LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "Admin 'Aditya' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "680556ebc46faba4e29753d9e2e27098e886f0549cbd2266cd46aafe3561269d"
+    },
+    {
+      "id": 49,
+      "timestamp": "2026-09-21T15:03:39.279550+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "d6ccd299ffa584dcaec7eb91a03ea231139989afded42407b28efe091203911a"
+    },
+    {
+      "id": 50,
+      "timestamp": "2026-09-21T15:04:12.048157+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "cbcad1f95e75e8fffaa06ae3170e62620181d173fe22c5ff0453f9d49bca6b0c"
+    },
+    {
+      "id": 51,
+      "timestamp": "2026-09-21T15:06:08.755214+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'update gdp_data set country_id='ZAF' where country_id='RSA';'",
+      "ai_confidence": 0.1481,
+      "hash": "75206f2adb02439096c19b43cc61ba8c564a830cd1a49f01411ba45c1b7c93e5"
+    },
+    {
+      "id": 52,
+      "timestamp": "2026-09-21T15:06:30.761467+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "85f4be1ef3d1871ddb9e3ea181ce82dcc55b30f07a76a9d6435ef657d7a3f560"
+    },
+    {
+      "id": 53,
+      "timestamp": "2026-09-21T15:07:04.261956+05:30",
+      "type": "INTERNAL_UEBA_ORANGE",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'rmdir'",
+      "ai_confidence": 0.9103,
+      "hash": "c9d6f991279f4904c0a6f24395df4b7517e7a2e8cf7a0ef5715862019f37ff0f"
+    },
+    {
+      "id": 54,
+      "timestamp": "2026-09-21T15:07:25.758872+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'echo hello'",
+      "ai_confidence": 0.4817,
+      "hash": "7be74244bcc06921462eb9b35c1d216b9324bf8bdeb71ba622b0999df18f5f32"
+    },
+    {
+      "id": 55,
+      "timestamp": "2026-09-27T08:42:46.746475+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "1f007f54e40750f401defd434e35d9133bf546dda6e5c16b6497faddec9284df"
+    },
+    {
+      "id": 56,
+      "timestamp": "2026-09-27T08:43:32.848592+05:30",
+      "type": "INTERNAL_UEBA_ORANGE",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "e4ed9aceafb5b147ff0b811c76782264d266342f4b9145969a7c6b6ec23a8d37"
+    },
+    {
+      "id": 57,
+      "timestamp": "2026-09-27T08:45:49.775035+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "fe025d490866b4546210a344dc03815625f1724a1ed7edf90441a64753f82982"
+    },
+    {
+      "id": 58,
+      "timestamp": "2026-09-27T08:46:04.888571+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "411da2a2cdc01cd5580fc6b9c21cf98c36e0ef4f1424672e951fb6ed1309babb"
+    },
+    {
+      "id": 59,
+      "timestamp": "2026-09-27T08:46:17.621428+05:30",
+      "type": "INTERNAL_UEBA_ORANGE",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "b905e1eb9d2c5f0533afb86b72d40f359a973340c4bdcf4d2f3e9fa3d297276e"
+    },
+    {
+      "id": 60,
+      "timestamp": "2026-09-27T08:46:34.138841+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "ad5941ece1359cbbeda4f1e2f2cbcb50a49d0c27ce50e02af2bafdaac83668e8"
+    },
+    {
+      "id": 61,
+      "timestamp": "2026-09-27T08:46:43.702509+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "d69993adcac68cd494c00d4751356cf35311950e4641fa150b23bdf6a645ccfb"
+    },
+    {
+      "id": 62,
+      "timestamp": "2026-09-27T08:46:46.704281+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "c9040f5cc6c128b27f0ab2406132c3862432deae73fd68850a3d3dbd49b4aa4b"
+    },
+    {
+      "id": 63,
+      "timestamp": "2026-09-27T08:47:34.341349+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "94eb4a494405b0780c907149552a8eb98a6fe9b5bbd4031f1cbd0653c6c46abb"
+    },
+    {
+      "id": 64,
+      "timestamp": "2026-09-27T08:53:31.637038+05:30",
+      "type": "ADMIN_LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "Admin 'Aditya' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "59c575adfea34db3824354a4f97407aa4a9b87f034a64e02719fedb23f890a2d"
+    },
+    {
+      "id": 65,
+      "timestamp": "2026-09-27T23:35:59.192820+05:30",
+      "type": "ADMIN_LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "Admin 'Aditya' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "2698723d08c64388c5030130c138e0556604fc86d2d4f1a87becd55ed48f5b08"
+    },
+    {
+      "id": 66,
+      "timestamp": "2026-09-27T23:36:30.081063+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "668f17c4c1279e4901506c9c5fb49cabfe0e2744e5d62f98630da8cd2ae53809"
+    },
+    {
+      "id": 67,
+      "timestamp": "2026-09-27T23:36:45.284226+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "62fb1da43f612949503901af8180a43b9cb37ef733809f1d46d642f5a1e94eb6"
+    },
+    {
+      "id": 68,
+      "timestamp": "2026-09-27T23:40:07.675868+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "3e3b277125c308883064eeb576405878694c39474c9f6c124f033b12081e0a10"
+    },
+    {
+      "id": 69,
+      "timestamp": "2026-09-27T23:40:21.305998+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "0113bb43d90bcf9e0be7ebddd6e508c9f2933e3211c13ffc77ab62dbc994cc7f"
+    },
+    {
+      "id": 70,
+      "timestamp": "2026-09-27T23:40:39.127075+05:30",
+      "type": "ADMIN_LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "Admin 'Aditya' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "d996353a36cfa150c5494d1eba87f42de6c606c89cb84d441bdf0211a2b4c09e"
+    },
+    {
+      "id": 71,
+      "timestamp": "2026-09-27T23:41:03.151095+05:30",
+      "type": "ADMIN_REVOKE",
+      "source": "ADMIN",
+      "details": "Revoked 'W' from 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "41fd63a36044b45851c2326118277f4ef73b9bbf0d0b0ff76d0cd8b354e4f38a"
+    },
+    {
+      "id": 72,
+      "timestamp": "2026-09-27T23:41:53.735725+05:30",
+      "type": "PERMISSION_DENIED_W",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'update gdp_data set country_id='KSA' where country_id='SAU';' | Required: W",
+      "ai_confidence": 1.0,
+      "hash": "05b8061cd1149f64d829e50c7121f6297968d7e588442c98fdb276285005d819"
+    },
+    {
+      "id": 73,
+      "timestamp": "2026-09-27T23:42:14.926003+05:30",
+      "type": "ADMIN_GRANT",
+      "source": "ADMIN",
+      "details": "Granted 'W' to 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "cd67b812df70d1a184b80c5973ef90e2b079ba7cef9c591c27ce8b8f82187a8b"
+    },
+    {
+      "id": 74,
+      "timestamp": "2026-09-27T23:42:32.245996+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'update gdp_data set country_id='KSA' where country_id='SAU';'",
+      "ai_confidence": 0.1526,
+      "hash": "22fa05291f300ee8f0b890207f5691b2e6c9a1a3b6a78c442591a18d5448d1d6"
+    },
+    {
+      "id": 75,
+      "timestamp": "2026-09-27T23:42:53.756162+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "81e1cc4c6385d2f3b1486aafcc7a56f9bab3ff20cdb4c97f5eae0bf3b5504e19"
+    },
+    {
+      "id": 76,
+      "timestamp": "2026-09-29T10:06:38.175584+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "6913803c28d7d86c70df8e7a6b1dc710723b3a73260e4231cc39689919e34ffa"
+    },
+    {
+      "id": 77,
+      "timestamp": "2026-09-29T10:07:10.176170+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "dfcab0656203f8150a9c8f0d4166846be47ee1bf073037155b4b06f6c30d4da1"
+    },
+    {
+      "id": 78,
+      "timestamp": "2026-09-29T10:08:19.497832+05:30",
+      "type": "ADMIN_LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "Admin 'Aditya' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "db40b08956014476e1c880aed684352ca0e4d1d3bff71e538a94f31ecd9a4e2e"
+    },
+    {
+      "id": 79,
+      "timestamp": "2026-09-29T10:08:58.457296+05:30",
+      "type": "ADMIN_REVOKE",
+      "source": "ADMIN",
+      "details": "Revoked 'W' from 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "e0f319ba0171aef494773c7e557be48f53e536e47b169571f9053189fc5d684b"
+    },
+    {
+      "id": 80,
+      "timestamp": "2026-09-29T10:09:16.914864+05:30",
+      "type": "PERMISSION_DENIED_W",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'insert into gdp_data values' | Required: W",
+      "ai_confidence": 1.0,
+      "hash": "1e3928bdf06b0c05006858080cc495aa34d5d78556724a599f2f56b7ba6da7c0"
+    },
+    {
+      "id": 81,
+      "timestamp": "2026-09-29T10:09:40.905011+05:30",
+      "type": "INTERNAL_UEBA_RED",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data'",
+      "ai_confidence": 0.5615,
+      "hash": "1e4ae28680271b795d1068f7f1abe9bece7ac4f2776aafa1018ca72acd66f80a"
+    },
+    {
+      "id": 82,
+      "timestamp": "2026-09-29T23:05:05.303858+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "7edc2a87ef2a74530aae250de325e4ff6a9aed351c20971fad45c318240a8bca"
+    },
+    {
+      "id": 83,
+      "timestamp": "2026-09-29T23:06:08.863905+05:30",
+      "type": "ADMIN_LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "Admin 'Aditya' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "11081b76ce9744fc2fca4166074ab44840e28a7fc9145cc68a5c66a40cba1f4c"
+    },
+    {
+      "id": 84,
+      "timestamp": "2026-09-29T23:06:18.633866+05:30",
+      "type": "ADMIN_REVOKE",
+      "source": "ADMIN",
+      "details": "Revoked 'W' from 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "1766d67dd00faed9db3cb02811e1906d13f48895ea0df7fb266942f8db12080b"
+    },
+    {
+      "id": 85,
+      "timestamp": "2026-09-29T23:06:40.223924+05:30",
+      "type": "PERMISSION_DENIED_W",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'insert into gdp_data values' | Required: W",
+      "ai_confidence": 1.0,
+      "hash": "e2ecef2ea4da9e0a642fa0ba8ce980c06102f87a03f67a68396382ba34ef14f3"
+    },
+    {
+      "id": 86,
+      "timestamp": "2026-09-29T23:06:55.553988+05:30",
+      "type": "PERMISSION_DENIED_W",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'insert into gdp_data values' | Required: W",
+      "ai_confidence": 1.0,
+      "hash": "884c3c1ee54559e9b71f25aa8abe706ea07521c9920b8dbb32d219f43fbdbbd0"
+    },
+    {
+      "id": 87,
+      "timestamp": "2026-10-12T15:48:38.433689+05:30",
+      "type": "ADMIN_LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "Admin 'Aditya' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "8fd5af5d7ad7acead05464c55eb6547a3c78e5e5820eca4cbbe9a9dca77463c2"
+    },
+    {
+      "id": 88,
+      "timestamp": "2026-10-12T15:49:23.896404+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "90e073ee990c0f271cb1a6d7701e992693166d52cfa2ecb748b636c1d2664250"
+    },
+    {
+      "id": 89,
+      "timestamp": "2026-10-12T15:49:38.530989+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "5485c5aaffa3986a212555b106e756408567b20cc53ae0cbdba8a57001a40dd7"
+    },
+    {
+      "id": 90,
+      "timestamp": "2026-10-12T15:51:11.491234+05:30",
+      "type": "ADMIN_REVOKE",
+      "source": "ADMIN",
+      "details": "Revoked 'W' from 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "4c1a4a4394eef866bd45357b69d6a895173c11c67fc28fba6337027ebb5bfba1"
+    },
+    {
+      "id": 91,
+      "timestamp": "2026-10-12T15:51:55.814439+05:30",
+      "type": "PERMISSION_DENIED_W",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'update gdp_data set country_id='RSA' where country_id='ZAF';' | Required: W",
+      "ai_confidence": 1.0,
+      "hash": "f889c2386cd469dedb372925c71ec0df4dcfe3966e95d526b2f0bb5af55468d7"
+    },
+    {
+      "id": 92,
+      "timestamp": "2026-10-12T15:56:18.925711+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "a1c030893d86af7698f19be1d60ea3fb0958ba4370aef01daeab6ffa60f3bd02"
+    },
+    {
+      "id": 93,
+      "timestamp": "2026-10-12T15:56:29.274369+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "c3b6b38405cda78295914a84391c11cb0119784661afae4792da6e4e14c2c577"
+    },
+    {
+      "id": 94,
+      "timestamp": "2026-10-12T20:38:28.595223+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "28cc18e0055a680b2266f6607a21f1d8bf2c07040858f7e63a00ebfded594cfd"
+    },
+    {
+      "id": 95,
+      "timestamp": "2026-10-12T20:39:16.204958+05:30",
+      "type": "ADMIN_LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "Admin 'Aditya' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "b747a336d3d9dcd37e0c995882d3d1078dfeed73419693a377a7d63243278880"
+    },
+    {
+      "id": 96,
+      "timestamp": "2026-10-12T20:41:26.274897+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "dfa1ec77f69d8abce9191f7e70ec71991686755636f32f5d75bde4a347b6a03d"
+    },
+    {
+      "id": 97,
+      "timestamp": "2026-10-12T20:42:29.456773+05:30",
+      "type": "ADMIN_REVOKE",
+      "source": "ADMIN",
+      "details": "Revoked 'R' from 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "2010ebf70f2abeeaf616cf2d70c54783701f1924a54c9354757ef3c1dbf70e23"
+    },
+    {
+      "id": 98,
+      "timestamp": "2026-10-12T20:42:51.494837+05:30",
+      "type": "PERMISSION_DENIED_R",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data' | Required: R",
+      "ai_confidence": 1.0,
+      "hash": "1416c29abbb636097c51f7c907534c255026961408fe434fca9319bae68b872a"
+    },
+    {
+      "id": 99,
+      "timestamp": "2026-10-12T20:43:32.724786+05:30",
+      "type": "ADMIN_GRANT",
+      "source": "ADMIN",
+      "details": "Granted 'R' to 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "a859c2566192d1a924ad786fcca38f7ed0f5f14602569957ff72a784185a8b1b"
+    },
+    {
+      "id": 100,
+      "timestamp": "2026-10-12T20:43:35.865104+05:30",
+      "type": "ADMIN_GRANT",
+      "source": "ADMIN",
+      "details": "Granted 'W' to 'Sagnik'",
+      "ai_confidence": 0.0,
+      "hash": "a7f95666dd5f8ba3fabc741102a0479c6735d99513e73b94a4986e82e2ea981d"
+    },
+    {
+      "id": 101,
+      "timestamp": "2026-10-12T20:45:28.554647+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'update gdp_data set gdp_nominal=gdp_nominal+1 where country_id = 'KSA';'",
+      "ai_confidence": 0.1562,
+      "hash": "31c88e673011fd11292464d6f93319c49119e77380ad40eb783f4718ead1f29f"
+    },
+    {
+      "id": 102,
+      "timestamp": "2026-10-12T20:46:01.174777+05:30",
+      "type": "INTERNAL_UEBA_GREEN",
+      "source": "127.0.0.1:8080",
+      "details": "User: Sagnik | Cmd: 'select * from gdp_data;'",
+      "ai_confidence": 0.5342,
+      "hash": "a16cf36bff976c75da8674c519a4146e9829fd3ca62dec3455e160fd09d86c2c"
+    },
+    {
+      "id": 103,
+      "timestamp": "2026-10-12T20:49:44.874324+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "ae9e0f5c9a6da81861b53eedb631a7d9f80b5dc3d489a055fd7bb06e2b6a399b"
+    },
+    {
+      "id": 104,
+      "timestamp": "2026-10-12T20:50:05.311657+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /root'",
+      "ai_confidence": 0.99,
+      "hash": "66706daca08a2bd43134e3c217e8c9de84b6274c07834d63423a0b56d82551e0"
+    },
+    {
+      "id": 105,
+      "timestamp": "2026-10-12T20:50:46.544369+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /root'",
+      "ai_confidence": 0.99,
+      "hash": "88c7eb804f99a7c014f0f5ce9f32fdc36746230d1f519304425503dbf9cc14a6"
+    },
+    {
+      "id": 106,
+      "timestamp": "2026-10-12T20:50:46.544369+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: drop table users'",
+      "ai_confidence": 0.99,
+      "hash": "da6a0516c9fcae197591429ecfaeb8dec3cc34d52e35755d6481a4a882da9875"
+    },
+    {
+      "id": 107,
+      "timestamp": "2026-10-12T20:51:55.394324+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /dir0'",
+      "ai_confidence": 0.99,
+      "hash": "790201f548e228a0d01e338a374e58d52467b053666ed215a390aadebd8b6294"
+    },
+    {
+      "id": 108,
+      "timestamp": "2026-10-12T20:51:55.399860+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /dir1'",
+      "ai_confidence": 0.99,
+      "hash": "96077bfcdd18a60ce84f77f65d1a7c53a44610aa64736193c61a0831221d5716"
+    },
+    {
+      "id": 109,
+      "timestamp": "2026-10-12T20:51:55.404367+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /dir2'",
+      "ai_confidence": 0.99,
+      "hash": "f6e6d5a58a97181783442e7e878232bbc35196481eaddd2efcb6cd5d976af2a0"
+    },
+    {
+      "id": 110,
+      "timestamp": "2026-10-12T20:51:55.414115+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /dir3'",
+      "ai_confidence": 0.99,
+      "hash": "22dd7a1a7c4e9131a9efc761924e272f228e8a002ce2f6669bbf96690fb3b0de"
+    },
+    {
+      "id": 111,
+      "timestamp": "2026-10-12T20:51:55.415633+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /dir4'",
+      "ai_confidence": 0.99,
+      "hash": "7f91f1373972f9889a8b5967d0380c19ec2be0e1f1867e2f82e7d6ad58c71672"
+    },
+    {
+      "id": 112,
+      "timestamp": "2026-10-12T20:52:24.425199+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /root'",
+      "ai_confidence": 0.99,
+      "hash": "c53b85b59d6a7e3d9fa31f57ef65c311731f234282c2d2da00c92331593c8ad9"
+    },
+    {
+      "id": 113,
+      "timestamp": "2026-10-14T19:17:46.805267+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /root'",
+      "ai_confidence": 0.99,
+      "hash": "0081a10e32090ed09979a1a81ddb780b008a4e115fe62bfae6f2ed03b4615f95"
+    },
+    {
+      "id": 114,
+      "timestamp": "2026-10-15T14:08:09.311160+05:30",
+      "type": "LOGIN_SUCCESS",
+      "source": "127.0.0.1:8080",
+      "details": "User 'Sagnik' authenticated",
+      "ai_confidence": 0.0,
+      "hash": "667017e78868ffa9599e722dde847fd615ed1f140647130da2246df78fb7599c"
+    },
+    {
+      "id": 115,
+      "timestamp": "2026-10-15T14:08:11.043900+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /root'",
+      "ai_confidence": 0.99,
+      "hash": "cfb0c67e9dd858a8cc861a00520155758bccddb65653af3157743b21b7f4ede5"
+    },
+    {
+      "id": 116,
+      "timestamp": "2026-10-15T14:08:59.596340+05:30",
+      "type": "EXTERNAL_ATTACKER_BLOCKED",
+      "source": "127.0.0.1:8080",
+      "details": "Payload: 'ATTACK: rm -rf /root'",
+      "ai_confidence": 0.99,
+      "hash": "fd3a847ed693b1997a6f7170f58ac68d0b81fa5d6ea5803ce62473ad9c0fa76c"
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# GUI
+PySide6
+
+# Existing backend dependencies (unchanged from the CLI project)
+numpy
+scikit-learn
+colorama
+argon2-cffi
+
+# Only required if you ever select "Use a real MySQL server" in the
+# Server Configuration dialog. Mock Database Mode (the default) needs
+# none of this -- it uses Python's built-in sqlite3.
+mysql-connector-python

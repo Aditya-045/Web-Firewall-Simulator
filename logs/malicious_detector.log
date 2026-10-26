@@ -1,0 +1,4 @@
+00:27:47 [detector] starting Malicious Content Detector
+00:27:48 [detector] PRE-FLIGHT: The Malicious Content Detector folder was not found inside E:\Python\My Work\Firewall\WAF Simulator All Versions\waf_simulator integrated\waf-detector-integration. | Expected a folder containing: |     backend/app/main.py |     frontend/package.json
+00:27:48 [detector] PRE-FLIGHT: These Python packages are missing from the simulator's interpreter (E:\Python\python.exe): dnspython | Install them with: |     "E:\Python\python.exe" -m pip install -r "backend/requirements.txt"
+00:27:48 [detector] PRE-FLIGHT: Port 8000 (backend) is already in use. If the detector is already running (for example started by hand), stop it first; otherwise close whatever is using the port. The ports are fixed because the frontend proxy and backend CORS settings depend on them.
